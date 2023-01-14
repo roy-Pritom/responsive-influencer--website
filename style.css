@@ -86,19 +86,28 @@ margin-top: 80px;
     justify-content: center;
     align-items: center;
     margin-bottom: 100px;
- }
+      }
  .logo{
     display: flex;
     justify-content: center;
     align-items: center; 
     gap: 61px;
      width: 1110px;
-     height: 110px;
+     height: 110px; 
      border: 2px solid red;
  }
  
+ 
  .logo li{
     list-style: none;
+ }
+ .logo li img{
+  height: 31.064594268798828px;
+width: 55.050872802734375px;
+left: 227px;
+top: 766px;
+border-radius: 0px;
+
  }
  /* ------------------------------
       Popular Collection Styles   
@@ -254,23 +263,69 @@ font-weight: 700;
       width: 100%;
       margin-top: 0;
       text-align: center;
-    
+       margin-left: 0;
     }
     .img{
       width: 100%;
     }
     .logos{
       width: 100%;
-
+       margin: 0;
     }
     .logo{
       width: 100%;
       flex-wrap: wrap;
       gap:30px;
       border-style: none;
+      padding:25px;
 
     }
-    .popular-collection,.third-section,.footer{
-      display: none;
+    .popular-collection{
+      width: 100%;
+     padding: 10px;
+     margin: 0;
     }
+    .collections {
+      grid-template-columns: repeat(1,1fr);
+      /* justify-content: center;
+      align-items: center; */
+      margin: 0;
+    }
+    .collection{
+      width: 100%;
+    }
+    .collection-img{
+      width: 100%;
+    }
+    .third-section{
+      margin-top:3400px;
+      gap: 0;
+      width: 100%;
+       flex-direction: column-reverse;
+       justify-content: center;
+       align-items: center;
+       padding:15px;
+       /* margin-bottom: 20px; */
+    }
+    .third-section-description{
+      width: 100%;
+           text-align: center;
+           
+    }
+    .third-section-img{
+      width: 100%;
+    
+    }
+.second-btn{
+  margin-bottom: 30px;
+}
+   .footer{
+    margin-top:200px;
+    width: 100%;
+   }
+   .footer-box{
+    width: 100%;
+    padding:50px 0;
+   }  
+   
   }
