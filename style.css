@@ -257,7 +257,7 @@ font-weight: 700;
     .navbar{
       gap: 10px;
       margin: 0;
-      display: none;
+      /* display: none; */
     }
     .banner-details{
       width: 100%;
@@ -267,6 +267,7 @@ font-weight: 700;
     }
     .img{
       width: 100%;
+      height: 100%;
     }
     .logos{
       width: 100%;
@@ -314,6 +315,7 @@ font-weight: 700;
     }
     .third-section-img{
       width: 100%;
+      height: 100%;
     
     }
 .second-btn{
@@ -322,10 +324,15 @@ font-weight: 700;
    .footer{
     margin-top:200px;
     width: 100%;
+    margin-right: 0;
    }
    .footer-box{
     width: 100%;
     padding:50px 0;
+    
    }  
+   .banner-tittle{
+    font-size: 30px;
+   }
    
   }
